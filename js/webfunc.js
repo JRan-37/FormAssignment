@@ -6,7 +6,6 @@ function showtext() {
     var productType = document.getElementById('product').value;
     var quantity = document.getElementById('quantity').value;
 
-    var phoneno = /^\d{10}$/;
     var valid = true;
     var alertString = "";
     if(name == "") {
